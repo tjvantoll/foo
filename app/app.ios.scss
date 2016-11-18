@@ -1,0 +1,9 @@
+@import 'app-common';
+@import 'nativescript-theme-core/theme-core-scss/themes/core/platforms/index.ios';
+
+// Place any CSS rules you want to apply only on iOS here
+
+// This works
+.btn {
+  font-size: 70;
+}
