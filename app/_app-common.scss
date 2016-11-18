@@ -1,14 +1,11 @@
 @import 'nativescript-theme-core/theme-core-scss/variables';
 @import 'nativescript-theme-core/theme-core-scss/themes/core/variables_light';
+
+// Customize any of the theme’s variables here
+$btn-color: red;
+$btn-color-inverse: orange;
+
 @import 'nativescript-theme-core/theme-core-scss/index';
 
 // Place any CSS rules you want to apply on both iOS and Android here.
 
-// This doesn’t work
-Label {
-  font-size: 200;
-}
-
-// This doesn’t work either
-$btn-color: red;
-$btn-color-inverse: orange;
